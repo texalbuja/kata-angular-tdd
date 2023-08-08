@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm install -g @angular/cli
     - run: npm install
-    - run: ng test
+    - run: npm test -- --watch=false --browsers=ChromeHeadless
